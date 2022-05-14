@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline-Level</title>
+</head>
+<body>
+    <h1>Inline-Level Elements - kõik ühel joonel</h1>
+    <!--tabelite loomine-->
+    <table border="2"> 
+        <thead>
+            <tr>
+                <th>Elements</th>
+                <th>Example</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <pre>&lt;a href=&quot;www.google.com&quot;&gt;Googel&lt;/a&gt;</pre> <!--https://www.web2generators.com/html-based-tools/online-html-entities-encoder-and-decoder-->
+                    <pre>&lt;a href=&quot;www.bing.com&quot;&gt;Bing&lt;/a&gt;</pre>
+                </td>
+                <td>
+                    <a href="www.google.com">Googel</a>
+                    <a href="www.bing.com">Bing</a>
+                </td>
+            </tr>
+           
+            <tr> <!--tabeli rida-->
+                <td> <!--tabeli data-->
+                    <pre>&lt;Button&gt;Button 1&lt;/Button&gt;</pre>
+                    <pre>&lt;Button&gt;Button 2&lt;/Button&gt;</pre>
+                </td>
+                <td>
+                    <Button>Button 1</Button>
+                    <Button>Button 2</Button>
+                </td>
+            </tr>
+
+            <tr> <!--tabeli rida-->
+                <td>
+                    <pre>&lt;input type=&quot;text&quot; placeholder=&quot;Username&quot;&gt;</pre> <!--pre võtab ka tühikuid sisse-->
+                    <pre>&lt;input type=&quot;password&quot; placeholder=&quot;Password&quot;&gt;</pre>
+                </td>
+                <td>
+                    <input type="text" placeholder="Username">
+                    <input type="password" placeholder="Password">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <pre>&lt;textarea cols=&quot;10&quot; rows=&quot;5&quot;&gt;&lt;/textarea&gt;</pre>
+                    <pre>&lt;button&gt;Submit&lt;/button&gt;</pre>
+                </td>
+                <td>
+                    <textarea cols="10" rows="5"></textarea>
+                    <button>Submit</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <pre>&lt;img src=&quot;images/Rome.jpg&quot; alt=&quot;&quot; width=&quot;150px&quot;&gt;</pre>
+                    <pre>&lt;img src=&quot;images/Rome.jpg&quot; alt=&quot;&quot; width=&quot;150px&quot;&gt;</pre>
+                </td>
+                <td>
+                    <img src="images/Rome.jpg" alt="" width="150px"> <!--pildid on inline tüüpi elemendid, paneb teiseteise järgi-->
+                    <img src="images/Rome.jpg" alt="" width="150px">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <pre>this is a &lt;span style=&quot;color: red;&quot;&gt; span 1&lt;/span&gt;!</pre>
+                    <pre>this is a &lt;span style=&quot;color: rgb(63, 186, 100);&quot;&gt; span 2&lt;/span&gt;!</pre>
+                </td>
+                <td>
+                    this is a <span style="color: red;"> span 1</span>!
+                    this is a <span style="color: rgb(63, 186, 100);"> span 2</span>!
+                </td>
+            </tr>
+
+
+        </tbody>
+
+    </table>
+    <hr> <!--horisontaalne joon-->
+    <p>
+        Marja-Liisa &#169; 2022
+    </p>
+
+</body>
+</html>
